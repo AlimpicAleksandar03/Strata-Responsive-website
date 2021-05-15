@@ -544,7 +544,7 @@ ul {
   }
 
   .header h1 br {
-    display: none
+    display: none;
   }
 
   .copyright {
@@ -554,7 +554,7 @@ ul {
   }
 
   .copyright li {
-    font-size: .7em;
+    font-size: 0.7em;
     margin: 0 !important;
     padding: 1em 0em !important;
   }
@@ -573,6 +573,4 @@ ul {
   .field-half {
     flex-basis: 100%;
   }
-
 }
-
