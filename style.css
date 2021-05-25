@@ -1,7 +1,5 @@
 /* GENERAL */
-*,
-*::after,
-*::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,6 +13,10 @@ body {
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -22,10 +24,7 @@ img {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: #787878;
   font-weight: 400;
   line-height: 1em;
@@ -79,16 +78,16 @@ a:hover {
   border-color: #49bf9d;
 }
 
-input,
-textarea {
+.contact-wrapper input,
+.contact-wrapper textarea {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
   border: solid 2px transparent;
 }
 
-input:focus,
-textarea:focus {
+.contact-wrapper input:focus,
+.contact-wrapper textarea:focus {
   outline: none;
   border-color: #49bf9d;
 }
